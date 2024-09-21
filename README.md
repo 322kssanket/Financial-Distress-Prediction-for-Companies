@@ -10,19 +10,16 @@ Time: Denotes the different time periods associated with each company.
 Financial Distress: The target variable; if greater than -0.50, the company is considered healthy (0), otherwise distressed (1).
 x1 to x83: Financial and non-financial characteristics of companies used as features. Feature x80 is categorical.
 Tasks:
-1. Regression
+1. Regression:
 We perform regression on one of the numerical attributes to predict financial performance. The following regression models are implemented:
 
 Logistic Regression
 Random Forests
 Extra Random Trees
 AdaBoost
-Evaluation metrics include:
+Evaluation metrics include:Root Mean Squared Error (RMSE), Mean Absolute Error (MAE)
 
-Root Mean Squared Error (RMSE)
-Mean Absolute Error (MAE)
-
-2. Classification
+2. Classification:
 Using the "Financial Distress" label, we classify companies as either healthy or financially distressed. The following classification algorithms are implemented:
 Naive Bayes,
 K-Nearest Neighbors (KNN),
@@ -30,7 +27,7 @@ Support Vector Machines (SVM),
 Decision Trees
 Evaluation metrics include: Precision, Recall, F1-Score
 
-3. Clustering
+3. Clustering:
 Clustering is applied to group companies based on all available attributes, aiming to uncover patterns in the data. The following clustering techniques are used:
 K-Means (with appropriate k),
 EM Clustering,
