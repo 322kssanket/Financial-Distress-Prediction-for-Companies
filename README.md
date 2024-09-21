@@ -24,21 +24,16 @@ Mean Absolute Error (MAE)
 
 2. Classification
 Using the "Financial Distress" label, we classify companies as either healthy or financially distressed. The following classification algorithms are implemented:
-
-Naive Bayes
-K-Nearest Neighbors (KNN)
-Support Vector Machines (SVM)
+Naive Bayes,
+K-Nearest Neighbors (KNN),
+Support Vector Machines (SVM),
 Decision Trees
-Evaluation metrics include:
+Evaluation metrics include: Precision, Recall, F1-Score
 
-Precision
-Recall
-F1-Score
 3. Clustering
 Clustering is applied to group companies based on all available attributes, aiming to uncover patterns in the data. The following clustering techniques are used:
-
-K-Means (with appropriate k)
-EM Clustering
+K-Means (with appropriate k),
+EM Clustering,
 K-Medoids
 The Sum of Squared Errors (SSE) is computed for each clustering output to evaluate the performance.
 
